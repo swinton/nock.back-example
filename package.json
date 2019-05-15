@@ -1,7 +1,7 @@
 {
-  "name": "nock-examples",
+  "name": "nock.back.example",
   "version": "0.0.1",
-  "description": "",
+  "description": "Example of nock.back using the GitHub API",
   "main": "index.js",
   "scripts": {
     "start": "node ./index.js",
@@ -10,6 +10,10 @@
   "keywords": [],
   "author": "Steve Winton <stevewinton@gmail.com> (https://github.com/swinton)",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/swinton/nock.back.example.git"
+  },
   "dependencies": {
     "@octokit/rest": "^16.25.4",
     "@octokit/routes": "^20.2.3",
